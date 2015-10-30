@@ -26,7 +26,7 @@ exe = EXE(pyz,
           debug=False,
           strip=None,
           upx=True,
-          console=False , icon='logo.ico')
+          console=False , icon='.\\futgui\logo.ico')
 coll = COLLECT(exe,
                a.binaries,
                a.zipfiles,
