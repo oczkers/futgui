@@ -1,3 +1,8 @@
+# Installation as library (any platform):
+```
+./setup.py install
+```
+
 # Build (Mac):
 ```
 make macbundle
