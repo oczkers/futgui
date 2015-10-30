@@ -1,0 +1,4 @@
+tkinter
+PIL
+requests
+fut
