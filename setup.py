@@ -24,7 +24,11 @@ packages = [
 
 
 with open('requirements.txt') as f:
-    requires = f.read().splitlines()
+    requires = []
+    for i in f.read().splitlines():
+        if i[:8] != 'https://':
+            requires.append(i)
+    print requires
 
 with open('readme.md') as f1:
     long_desc = f1.read()
