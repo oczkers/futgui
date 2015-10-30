@@ -15,7 +15,11 @@ __copyright__ = 'Copyright 2015 Jason Hunter'
 
 packages = [
     __title__,
-    # '%s.modules' % __title__,
+    '%s.core' % __title__,
+    '%s.dmg' % __title__,
+    '%s.fonts' % __title__,
+    '%s.frames' % __title__,
+    '%s.images' % __title__,
 ]
 
 
